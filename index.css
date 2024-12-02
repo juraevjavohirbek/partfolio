@@ -210,7 +210,7 @@ header{
 }
 
 .box-img img{
-    height: 130px;
+    width: 100%;
 }
 
 .box h3{
