@@ -429,11 +429,26 @@ font-size: 1.8rem;
     }
 
     .about-container{
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-img{
+        width: 100%;
+        margin-left: 32%;
+    }
+
+    .about-text p{
+        line-height: 1.5rem;
     }
 
     .services-container{
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .services-text p{
+        line-height: 1.5rem;
     }
 }
 
